@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#CCC;
+}
+.all{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+background:url(pattern-background-desktop.png);
+background-size:100% 50%;
+background-repeat:no-repeat;
+background-color:rgba(204,204,204,0);
+}
+.continer{
+	width:450px;
+	height:600px;
+	  margin:20px auto;
+	  background-color:#FFF;
+	  
+	  border-radius:12px 12px 12px 12px;
+	  margin:10px auto;
+
+	  
+}
+.header{
+width:100%;
+height:220px;
+background-image:url(illustration-hero.png);
+background-size:100%;
+	  border-radius:12px 12px 0px 0px;
+
+}
+.h12{
+	height:10px;
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:30px;
+}
+.para{
+	width:100%;
+	margin:20px auto;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+.plan{
+position:relative;
+margin:10px auto;
+background:rgba(204,204,204,0.5);
+width:350px;
+height:12px;
+padding-top:10px;
+padding-bottom:40px;
+border-radius:10px 10px 10px 10px;
+color:#000;
+}
+.logo{
+	width:48px;
+	height:48px;
+	float:left;
+    padding-left:10px;
+}
+.cha{
+	float:right;
+	padding-right:10px;
+	height:40px;
+	margin:0px auto;
+	text-align:center;
+	padding-bottom:10px;
+	
+	}
+	a:hover{
+	color:#3CF;}
+	.butt{
+	margin:24px auto;
+	padding-left:50px;
+	
+	}
+	.butt input[value="Proceed to Payment"]{
+		 font-size:16px;
+		 height:40px; color:#FFF; border:hidden;
+		 border-radius:6px 6px 6px 6px; box-shadow:0px 12px 5px rgb(204,204,204,0.3);
+		 font-weight:bold; width:90%;
+		background-color:rgba(20%,20%,100%,0.8);
+		font-family:Arial, Helvetica, sans-serif; 
+	}
+.butt input[value="Cancel Order"]{
+		text-shadow:1px 3px 5px #CCCCCC;
+		background-color:#FFF;
+        border:hidden;
+		color:rgba(51,0,102,1);
+		}
+		
+	
+	.butt input[value="Proceed to Payment"]:hover{
+      background-color:rgba(20%,20%,100%,0.6);
+	
+	}
+.butt input[value="Cancel Order"]:hover{
+color:rgba(0,0,0,1);
+}
